@@ -60,3 +60,15 @@ let templitMUL = templit.toUpperCase();
 console.log(templit);
 console.log(templitMUL);
 console.log(templit.length);
+
+//Aulas sobre trim, charAt,
+
+let texto1 = "    Aprendendo JavaScript    ";
+console.log(texto1.trim());
+
+let animal = "elefante";
+console.log(animal.charAt(3)) // Ele retorna 'f' ´porque sempre começa com 0
+console.log(animal.includes("lef")); // Saída: true
+
+let novoTexto1 = texto1.replace("JavaScript", "Java");
+console.log(novoTexto1.trim());
