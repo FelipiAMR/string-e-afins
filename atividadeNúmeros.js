@@ -33,3 +33,4 @@ console.log(`Preço Original: R$${precoDescontado}`)
 console.log(`Desconto: ${desconto}%`);
 console.log(`Preço com Desconto: ${precoDescontado.toFixed(2)}`);
 
+// Outras atividades
